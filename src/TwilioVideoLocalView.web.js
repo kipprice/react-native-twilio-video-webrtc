@@ -1,5 +1,6 @@
-export const TwilioVideoLocalView = () => {
+import { Component } from 'react'
+export default class TwilioVideoLocalView extends Component {
+  render () {
     return null
+  }
 }
-
-export default TwilioVideoLocalView;
